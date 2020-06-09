@@ -191,14 +191,15 @@ img {
   padding-bottom: 0;
   line-height: 1.5;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem;  
+  color: #ffffff;  
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
+  color: {{ site.navbar-text-col | default: "#404040" }};
 
-  color: #ffffff;
 }
 
 .navbar-toggler {
