@@ -121,7 +121,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: rgb(15, 208, 241);
+  background-color: black;
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#EAEAEA" }};
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
