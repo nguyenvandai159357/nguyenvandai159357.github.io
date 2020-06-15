@@ -192,13 +192,13 @@ img {
   line-height: 1.5;
   padding-top: 1rem;
   padding-bottom: 1rem;  
-  color: #ffffff !important;  
+  color: #ffffff;  
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-
+color: #ffffff;  
 }
 
 .navbar-toggler {
